@@ -28,9 +28,7 @@
         "network",
 
         // media
-        "idle_inhibitor",
         "pulseaudio",
-        "backlight",
 
         // system
         "clock"
@@ -55,9 +53,8 @@
     "clock": {
         "interval": 60,
         "format": "{:%e %b %Y %H:%M}",
-        "tooltip": true,
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
-        "on-click": "swaymsg exec \\$calendar"
+        "tooltip": false,
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>"
     },
 
     "network": {
@@ -71,24 +68,6 @@
         "tooltip-format-disconnected": "{icon} disconnected",
         "tooltip-format-disabled": "{icon} disabled",
         "on-click": "swaymsg exec \\$once \\$term_float nmtui"
-    },
-
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "󰒳",
-            "deactivated": "󰒲"
-        },
-        "tooltip": true,
-        "tooltip-format-activated": "power-saving disabled",
-        "tooltip-format-deactivated": "power-saving enabled"
-    },
-
-    "backlight": {
-        "format": "{icon} {percent}%",
-        "format-icons": ["󰃞", "󰃟", "󰃠"],
-        "on-scroll-up": "swaymsg exec \\$brightness_up",
-        "on-scroll-down": "swaymsg exec \\$brightness_down"
     },
 
     "pulseaudio": {
@@ -110,8 +89,7 @@
     },
 
     "sway/language": {
-        "format": " {}",
-        "min-length": 5,
+        "format": "{}",
         "tooltip": false,
         "on-click": "swaymsg input $(swaymsg -t get_inputs --raw | jq '[.[] | select(.type == \"keyboard\")][0] | .identifier') xkb_switch_layout next"
     },
