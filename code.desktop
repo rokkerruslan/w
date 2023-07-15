@@ -1,0 +1,7 @@
+cat .local/share/applications/code.desktop 
+[Desktop Entry]
+Type=Application
+Name=Code
+Path=/home/r/d/VSCode-linux-x64
+Exec=bin/code --enable-ozone --ozone-platform=wayland
+Terminal=false
