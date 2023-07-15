@@ -109,9 +109,11 @@
     "editorIndentGuide.background": "#eff2f6",
     "editorIndentGuide.activeBackground": "#d7dbe0",
     "editorWhitespace.foreground": "#d1d5da",
-    "editorCursor.foreground": "#53595f",
-    "editorError.background": "#ffeaec",
-    "editorWarning.foreground": "#f9c513",
+    "editorCursor.foreground": "#e2e2e2",
+    // "editorCursor.background": "#fff",
+    "editorError.background": "#f9dddd",
+    "editorWarning.background": "#fff6d6",
+    "editorWarning.foreground": "#fff",
     "editor.findMatchBackground": "#ffdf5d",
     "editor.findMatchHighlightBackground": "#ffdf5d66",
     "editor.linkedEditingBackground": "#0366d611",
@@ -126,8 +128,8 @@
     "editorBracketMatch.background": "#34d05840",
     "editorBracketMatch.border": "#34d05800",
     "editorGutter.modifiedBackground": "#2188ff",
-    "editorGutter.addedBackground": "#28a745",
-    "editorGutter.deletedBackground": "#d73a49",
+    "editorGutter.addedBackground": "#34d05840",
+    "editorGutter.deletedBackground": "#d73a4a49",
     "diffEditor.insertedTextBackground": "#34d05822",
     "diffEditor.removedTextBackground": "#d73a4922",
     "scrollbar.shadow": "#6a737d33",
@@ -308,7 +310,7 @@
       ],
       "settings": {
         "background": "#f0fff4",
-        "foreground": "#22863a"
+        "foreground": "#7ed392"
       }
     },
     {
