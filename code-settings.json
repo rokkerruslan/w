@@ -12,7 +12,7 @@
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "editor.accessibilitySupport": "off",
-    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingBrackets": "never",
     "editor.autoClosingDelete": "never",
     "editor.autoClosingOvertype": "never",
     "editor.autoClosingQuotes": "never",
@@ -22,11 +22,10 @@
     "files.enableTrash": false,
     "go.showWelcome": false,
     "diffEditor.diffAlgorithm": "advanced",
-    "editor.suggest.showMethods": false,
     "diffEditor.experimental.useVersion2": true,
     "editor.cursorBlinking": "solid",
     "editor.cursorSurroundingLines": 10,
-    "editor.fontSize": 14.5,
+    "editor.fontSize": 14,
     "editor.foldingHighlight": false,
     "editor.occurrencesHighlight": false,
     "editor.renderLineHighlight": "none",
@@ -35,5 +34,19 @@
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": null,
+    "diffEditor.renderMarginRevertIcon": false,
+    "editor.hover.enabled": false,
+    "npm.fetchOnlinePackageInfo": false,
+    "go.enableCodeLens": {
+        "runtest": false
+    },
+    "editor.suggest.localityBonus": true,
+    "editor.suggestLineHeight": 25,
+    "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.inlineSuggest.enabled": false
 }
