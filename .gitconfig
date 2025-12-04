@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = default
+[user]
+	email = rokkerruslan@protonmail.com
+	name = rokkerruslan
+
+[alias]
+	ll = log --oneline --graph --all -20
+[core]
+	editor = helix
